@@ -1,9 +1,8 @@
 package inter
 
 type State interface {
-	Ordered()
-	OrderPaying()
-	OrderPay()
-	OrderCancel()
-	OrderRefund()
+	AddItem()
+	InsertMoney()
+	RequestItem()
+	DispenseItem()
 }
